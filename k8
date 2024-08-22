@@ -1,0 +1,7 @@
+Note
+eksctl create cluster --config-file=eks.yaml --> to create eks cluster
+kubectl get nodes --> to get the nodes list
+kubectl get ns --> to get the namespacec information 
+kubectl describe ns kube-public --> it will give more information about ns/pods
+kubectl get pods --> it will lits the pods
+kubectl delete pods nginx --> to delete the pods
